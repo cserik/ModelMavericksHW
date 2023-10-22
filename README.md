@@ -20,7 +20,7 @@ We use the following dataset: https://humanheart-project.creatis.insa-lyon.fr/da
 ### Milestone 1
 Notebook with some plots: *Model_Mavericks.ipynb*
 
-####Containerization
+#### Containerization
 
 The files needed to build the container are located in the milestone1 folder. The Dockerfile helps to build the container, the requirements.txt specifies the packages (and the appropriate versions) that we used. The data_preprocessing.py script helps to preprocess the data and load it in the right format.
 
@@ -43,7 +43,7 @@ To run the Model Mavericks Preprocessor in a Docker container, follow these step
    docker run -it model-mavericks-preprocessor
 
 ### Related works
-https://nipy.org/nibabel/gettingstarted.html
-https://nipy.org/nibabel/nibabel_images.html
-https://ieeexplore.ieee.org/abstract/document/8360453
+https://nipy.org/nibabel/gettingstarted.html\
+https://nipy.org/nibabel/nibabel_images.html\
+https://ieeexplore.ieee.org/abstract/document/8360453\
 https://nipy.org/nibabel/coordinate_systems.html
