@@ -42,8 +42,10 @@ To run the Model Mavericks Preprocessor in a Docker container, follow these step
    ```bash
    docker run -it model-mavericks-preprocessor
 
-### Related works
-https://nipy.org/nibabel/gettingstarted.html\
-https://nipy.org/nibabel/nibabel_images.html\
-https://ieeexplore.ieee.org/abstract/document/8360453\
-https://nipy.org/nibabel/coordinate_systems.html
+### Related Works
+
+- [https://nipy.org/nibabel/gettingstarted.html](https://nipy.org/nibabel/gettingstarted.html)
+- [https://nipy.org/nibabel/nibabel_images.html](https://nipy.org/nibabel/nibabel_images.html)
+- [https://ieeexplore.ieee.org/abstract/document/8360453](https://ieeexplore.ieee.org/abstract/document/8360453)
+- [https://nipy.org/nibabel/coordinate_systems.html](https://nipy.org/nibabel/coordinate_systems.html)
+
