@@ -43,6 +43,38 @@ To run the Model Mavericks Preprocessor in a Docker container, follow these step
    docker run -it model-mavericks-preprocessor
 
 ### Milestone 3
+Notebook of our baseline model: *baseline_v1.ipynb*
+Notebook of our U-Net architecture: *TriUnet.ipynb*
+Statistics of the dataset we used and some data augmentation examples: *data_statistics.ipynb*
+
+#### Containerization
+
+The files needed to build the container are located in the milestone3/docker_baseline_model folder. The Dockerfile helps to build the container, the requirements.txt specifies the packages (and the appropriate versions) that we used. The train.py script is responsible for training the baseline model.
+
+##### Building and Running the Docker Container
+
+To start the training of the baseline model in a Docker container, follow these steps:
+
+1. **Build the Docker Image:**
+
+   Use the following command in the milestone3/docker_baseline_model folder to build the Docker image. This will create an image with the name `train-baseline-model`:
+
+   ```bash
+   docker build -t train-baseline-model .
+
+2. **Run the Docker Image on CPU:**
+
+   Once the image is built, you can run the Docker container using the following command:
+
+   ```bash
+   docker run -it train-baseline-model
+
+3. **Run the Docker Image on GPU(if available):**
+   
+   Replace the Dockerfile in the milestone3/docker_baseline_model folder with the one located in the milestone3/dockerfile_cuda directory and rebuild the container according the first step (see above). Once the image is built, you can run the Docker container using the following command:
+
+   ```bash
+   docker run --gpus all -it train-baseline-model
 
 #### User Interface
 
