@@ -78,7 +78,7 @@ To start the training of the baseline model in a Docker container, follow these 
 
 #### User Interface
 
-The user interface consists of two main panels. Using the interface on the left, you can upload a file containing an MRI recording. The file format can be one of the following extensions: jpeg, jpg, png, nii, nii.gz. Using the file given as input, the neural network will determine the extent of heart diseases. The predicted area will be colored on the input image, and then it will appear in the right panel. By pressing the left button, the selected file is deleted and it is possible to select a new file.
+The user interface consists of two main panels. Using the interface on the left, you can upload a file containing an MRI recording. The file format can be one of the following extensions: nii, nii.gz. Using the file given as input, the neural network will determine the extent of heart diseases. The predicted area will be colored on the input image, and then it will appear in the right panel. By pressing the left button, the selected file is deleted and it is possible to select a new file.
 
 ### Related Works
 
