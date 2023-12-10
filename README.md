@@ -43,9 +43,9 @@ To run the Model Mavericks Preprocessor in a Docker container, follow these step
    docker run -it model-mavericks-preprocessor
 
 ### Milestone 3
-Notebook of our baseline model: *baseline_v1.ipynb*
-Notebook of our U-Net architecture: *TriUnet.ipynb*
-Statistics of the dataset we used and some data augmentation examples: *data_statistics.ipynb*
+ - Notebook of our baseline model: *baseline_v1.ipynb*
+ - Notebook of our U-Net architecture: *TriUnet.ipynb*
+ - Statistics of the dataset we used and some data augmentation examples: *data_statistics.ipynb*
 
 #### Containerization
 
